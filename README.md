@@ -72,6 +72,8 @@ Being able to recognize when you are dealing with a function (something which en
 
 In this example, two functions are declared (`addTwoNumbers` and `addThreeNumbers`), then `addThreeNumbers` is being called at the bottom. The computer will interpret this as the following:
 
+0) It sees the definitions of `addTwoNumbers` and `addThreeNumbers` on lines 1 and 5, but ignores them because those functions have not been called.
+
 1) It sees `addThreeNumbers` being called on line 9, so it needs to see what `addThreeNumbers` should do.
   
 2) It jumps to line 5 for the definition of `addThreeNumbers` and reads that top-down.
